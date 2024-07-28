@@ -22,7 +22,7 @@ function showContent(page) {
         xhr.open('GET', 'servicestor.html', true);
         break;
       default:
-        xhr.open('GET', 'home.html', true); // Default to home page
+	    xhr.open('GET', 'index.html', false);
     }
     
     xhr.send();
