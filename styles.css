@@ -1,0 +1,83 @@
+/*JetBrainsMono Font*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: medium;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+  
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+header h1 {
+    font-size: 1.8em;
+    margin-left: 20px;
+}
+
+nav {
+    text-align: right;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+  
+nav a:hover {
+    background-color: #555;
+}
+  
+#content {
+    padding: 20px;
+}
+
+.header {
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    cursor: url("assets/CursorsXP.png"), auto;
+}
+
+a {
+    cursor: url("assets/CursorsXP_Pointer.png"), auto;
+}
